@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "create-admin": "node utils/createAdminUser.js",
     "setup": "node utils/createUploadsDir.js",
-    "postinstall": "npm run setup && npm run create-admin",
+    "postinstall": "npm run setup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
